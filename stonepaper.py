@@ -1,6 +1,7 @@
 import random
 import sys
 
+flag=True
 n=True
 ro=1
 Player_points=0
@@ -55,7 +56,7 @@ elif(Player_points<System_points):
     print("Better Luck Next Time...:(")
 else:
     print("Tournament Draw...!!")
-
-flag=True
+    
+ #actually not required
 if(flag!=True):
     sys.exit()
